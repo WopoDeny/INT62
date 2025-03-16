@@ -1,0 +1,14 @@
+.rasd-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat;
+    background-image: url("public/Kursi.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #e4e4e4;
+    font-family: Arial, sans-serif;
+}

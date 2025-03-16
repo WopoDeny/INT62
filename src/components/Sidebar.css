@@ -1,0 +1,36 @@
+.text-xs{
+        width: 100%;
+        padding: 10px 15px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.1s ease;
+    }
+    
+.text-xs:hover {
+        background-color: #c5126d;
+        
+    }
+/* Стили для скроллбара */
+::-webkit-scrollbar {
+    width: 8px; /* Ширина скроллбара */
+  }
+  
+  /* Дорожка скроллбара */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Прозрачный фон */
+  }
+  
+  /* Ползунок скроллбара */
+  ::-webkit-scrollbar-thumb {
+    background: #4c1d95; /* Цвет ползунка (bg-violet-950 в hex) */
+    border-radius: 4px; /* Закругленные углы */
+  }
+  
+  /* Ползунок скроллбара при наведении */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5b21b6; /* Цвет ползунка при наведении (немного светлее) */
+  }
